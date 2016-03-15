@@ -24,6 +24,12 @@ Or install it yourself as:
 Basic usage is out of a box inserted into rails.
 On top of that you get few extensions.
 
+```ruby
+ object = MyModel.create date_field: '1458068508.965463'
+ puts object.date_field
+```
+Will result with `2016-03-15 19:01:48 UTC`
+
 ### Api
 
 For api use, default time are extended with following methods:
