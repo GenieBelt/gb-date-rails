@@ -12,7 +12,8 @@ class GBDateConnection
     ActiveRecord::Base.establish_connection(
         adapter: 'postgresql',
         database: 'gb_date_test',
-        host: 'localhost',
+        user: 'geniebelt',
+        socket: '/var/run/postgresql/.s.PGSQL.5432',
         pool: 5,
     )
   end
