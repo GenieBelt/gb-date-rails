@@ -39,7 +39,7 @@ Returns `BigDecimal` with precision to microseconds
 Returns `Float` with precision to microseconds
 
 ```ruby
- Time.now.to_api_f
+ Time.now.to_api_s
 ```
 Returns `String` representation of decimal number with precision to microseconds
 
